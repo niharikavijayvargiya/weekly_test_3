@@ -1,0 +1,132 @@
+:root{
+    --primaryTextColor: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--primaryTextColor);
+}
+
+.shippingText{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: var(--primaryTextColor);
+    background: linear-gradient(90deg, rgb(2, 2, 2) 0%, rgba(0,0,0,1) 10%, rgba(250,24,0,1) 100%);
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navEle{
+    margin: 15px;
+}
+
+.navEleContainer{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: end;
+    background-color: black;
+    display: flex;
+}
+
+.navSearchBar{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.navSearchBar > span{
+    margin-left: 10px;
+}
+
+.searchBar{
+    border: none;
+    height: 50%;
+    width: 60%;
+}
+
+.mainImage{
+    padding: 6% 10%;
+    font-size: larger;
+    background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainImage > *{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+}
+
+section{
+    padding: 1% 5%;
+}
+
+.trendingText, .jordans > p{
+    margin: 0;
+    padding: 0;
+}
+
+section > div{
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.trendingText{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.jordans{
+    font-weight: bolder;
+    height: auto;
+    width: 120px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0.5% 0.8%;
+}
+
+.shoe{
+    height: 80%;
+    width: 100%;
+}
+
+footer{
+    background: linear-gradient(to left, #000000, #434343);
+    padding: 7% 10% 5% 10%;
+    margin-top: 2%;
+}
+
+.footerContainer{
+    display: flex;
+    padding: 6%;
+    width: 80%;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(2, 2, 2) 0%, rgba(0,0,0,1) 10%, rgba(250,24,0,1) 100%);
+    box-shadow: 0px 0px 10px gray;
+}
+
+.footerImage{
+    height: 200px;
+    width: 80%;
+    margin-left: 20%;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 8px 8px 8px white;
+}
+
+.jordanContent{
+    width: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.footerImage:hover{
+    width: 400px;
+    height: 400px;
+}
